@@ -23,4 +23,15 @@ export const projects = [
     live: "https://ilyessr.github.io/movie-browsing-app/",
     github: "https://github.com/ilyessr/movie-browsing-app",
   },
+  {
+    id: nanoid(),
+    title: "Advent of Code – Algorithm Challenges",
+    description:
+      "A collection of problem-solving exercises from Advent of Code. I implemented solutions in TypeScript, exploring algorithms and focusing on clean, readable code and good performance.",
+    image:
+      "https://cdn.thenewstack.io/media/2021/12/521cd034-advent-of-code-2021.jpg",
+    tags: ["TypeScript", "Algorithms", "Data Structures"],
+    live: "https://github.com/ilyessr/advent-of-code",
+    github: "https://github.com/ilyessr/advent-of-code",
+  },
 ];

@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="align-element">
         <SectionTitle text="Projects" />
         <p className="mt-6 text-slate-600 ">
-          Here are some projects I've built for fun and and test my abilities.
+          Here are some projects I built for fun and to challenge my skills.
         </p>
         <div className="py-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {projects.map((project) => {
