@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 import MovieAppImg from "../assets/movie-browsing-app.png";
+import JobTracker from "../assets/job-tracker.png";
 
 export const projects = [
   {
@@ -22,6 +23,16 @@ export const projects = [
     tags: ["React", "Typescript", "TanStack", "React Router"],
     live: "https://ilyessr.github.io/movie-browsing-app/",
     github: "https://github.com/ilyessr/movie-browsing-app",
+  },
+  {
+    id: nanoid(),
+    title: "Job Tracker – Application Tracking Platform",
+    description:
+      "A full-stack web app to track and organize my job applications (roles, statuses, notes, and follow-up dates).",
+    image: JobTracker,
+    tags: ["React", "TypeScript", "NestJS", "Frontend", "Backend"],
+    live: "https://ilyessr.github.io/job-tracker-frontend/",
+    github: "https://github.com/ilyessr/job-tracker-frontend",
   },
   {
     id: nanoid(),
