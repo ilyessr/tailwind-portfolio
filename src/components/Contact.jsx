@@ -110,17 +110,17 @@ const Contact = () => {
 
   return (
     <section id="contact" className="bg-slate-50 py-20">
-      <div className="align-element max-w-2xl">
+      <div className="align-element">
         <SectionTitle text="Get in touch" />
 
         <p className="mt-6 text-slate-600">
-          I'm currently open to new opportunities. Feel free to send me a
-          message.
+          If you’d like to collaborate or discuss an opportunity, feel free to
+          send me a message.
         </p>
 
         <form
           onSubmit={handleSubmit}
-          className="mt-10 space-y-4 rounded-2xl border border-emerald-100 bg-white p-6 shadow-sm"
+          className="max-w-2xl mt-10 space-y-4 rounded-2xl border border-emerald-100 bg-white p-6 shadow-sm"
         >
           <input
             type="text"
