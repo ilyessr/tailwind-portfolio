@@ -1,10 +1,11 @@
 import { nanoid } from "nanoid";
 import MovieAppImg from "../assets/movie-browsing-app.png";
 import JobTracker from "../assets/job-tracker.png";
+import DevBoard from "../assets/dev-board.png";
 
 export const projects = [
   {
-    id: nanoid(),
+    id: 1,
     title: "Portfolio Website",
     description:
       "Responsive personal portfolio built with React and Tailwind CSS, featuring smooth animations and a modular component structure.",
@@ -15,7 +16,7 @@ export const projects = [
     github: "https://github.com/ilyessr/tailwind-portfolio",
   },
   {
-    id: nanoid(),
+    id: 2,
     title: "Movie Browsing App",
     description:
       "Discover, search, and browse movies with details, casts, and ratings from TMDB. The app is responsive, fast, and keeps data fresh with smart caching for a smooth experience on desktop and mobile.",
@@ -25,7 +26,18 @@ export const projects = [
     github: "https://github.com/ilyessr/movie-browsing-app",
   },
   {
-    id: nanoid(),
+    id: 3,
+    title: "DevBoard – Kanban Project Management Platform",
+    description:
+      "A full-stack web app inspired by Trello/Jira to manage boards, columns, and cards with secure JWT authentication and HttpOnly refresh cookies.",
+    image: DevBoard,
+    tags: ["React", "TypeScript", "Django", "Frontend", "Backend"],
+    live: "",
+    github: "https://github.com/ilyessr/devboard",
+  },
+
+  {
+    id: 4,
     title: "Job Tracker – Application Tracking Platform",
     description:
       "A full-stack web app to track and organize my job applications (roles, statuses, notes, and follow-up dates).",
@@ -35,7 +47,7 @@ export const projects = [
     github: "https://github.com/ilyessr/job-tracker-frontend",
   },
   {
-    id: nanoid(),
+    id: 5,
     title: "Advent of Code – Algorithm Challenges",
     description:
       "A collection of problem-solving exercises from Advent of Code. I implemented solutions in TypeScript, exploring algorithms and focusing on clean, readable code and good performance.",

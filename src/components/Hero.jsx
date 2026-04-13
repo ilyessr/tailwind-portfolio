@@ -11,16 +11,16 @@ const Hero = () => {
       <div className="align-element grid items-center gap-12 lg:grid-cols-2">
         <article className="space-y-6 text-center lg:text-left">
           <p className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold uppercase tracking-[0.18em] text-emerald-700 shadow-sm ring-1 ring-emerald-100">
-            Full-stack developer
+            Full-Stack Engineer
           </p>
           <div className="space-y-4">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 leading-tight">
-              I'm Ilyess, and I love crafting smooth web experiences.
+            <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
+              I'm Ilyess, I build reliable and thoughtful web applications.
             </h1>
-            <p className="text-lg sm:text-xl text-slate-600  max-w-2xl mx-auto lg:mx-0">
-              From design to deployment, I build elegant, fast, and accessible
-              interfaces to ensure every user enjoys a clear and pleasant
-              experience on both mobile and desktop.
+            <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0">
+              With a background in sciences, I enjoy working on products with
+              complex logic. I focus on building clean, maintainable systems and
+              creating smooth user experiences that solve real problems.
             </p>
           </div>
 
@@ -29,7 +29,7 @@ const Hero = () => {
               href="#projects"
               className="inline-flex items-center justify-center rounded-xl bg-emerald-600 px-6 py-3 text-white font-semibold shadow-lg shadow-emerald-200 transition duration-200 hover:-translate-y-0.5 hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500 w-full sm:w-auto"
             >
-              See my projects
+              View my work
             </a>
             <a
               href="#about"

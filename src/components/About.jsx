@@ -11,18 +11,20 @@ const About = () => {
           className="w-full max-w-lg h-auto drop-shadow-xl"
         />
 
-        <article className=" p-8 ">
-          <SectionTitle text="Tea-Powered Developer" />
-          <p className="text-slate-600 mt-6 ">
-            I'm a junior full-stack developer focused on transforming ideas into
-            reliable, user-friendly web applications. I care about clean design,
-            maintainable code, and continuous learning.
+        <article className="p-8">
+          <SectionTitle text="Full-Stack Engineer with a Scientific Background" />
+          <p className="text-slate-600 mt-6">
+            I’m a full-stack developer with a background in sciences, focused on
+            building reliable and meaningful applications. I enjoy working on
+            products with complex logic, where understanding the problem deeply
+            is just as important as writing the code.
           </p>
-          <p className="text-slate-600 mt-4 ">
-            From <strong>React</strong> and <strong>Next</strong>.js on the
-            front end to <strong>Node.js</strong> and <strong>NestJS</strong> on
-            the back end, I enjoy building modern, fast, and seamless digital
-            experiences.
+          <p className="text-slate-600 mt-4">
+            I work mainly with <strong>React</strong> and{" "}
+            <strong>TypeScript</strong> on the front end, and{" "}
+            <strong>Node.js</strong> or <strong>Python</strong> on the back end.
+            I care about clean, maintainable code and creating smooth user
+            experiences, especially for tools used in demanding environments.
           </p>
         </article>
       </div>

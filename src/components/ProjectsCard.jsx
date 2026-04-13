@@ -26,15 +26,17 @@ const ProjectsCard = ({
             {title}
           </h2>
           <div className="flex gap-2">
-            <a
-              href={live}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="icons-card"
-              aria-label={`${title} live`}
-            >
-              <TbWorldWww className="h-6 w-6" />
-            </a>
+            {live && (
+              <a
+                href={live}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icons-card"
+                aria-label={`${title} live`}
+              >
+                <TbWorldWww className="h-6 w-6" />
+              </a>
+            )}
             <a
               href={github}
               target="_blank"
