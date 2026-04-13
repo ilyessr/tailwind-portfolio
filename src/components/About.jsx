@@ -2,6 +2,8 @@ import SectionTitle from "./SectionTitle";
 import aboutSvg from "../assets/about.svg";
 
 const About = () => {
+  const cvUrl = `${import.meta.env.BASE_URL}cv-ilyess-rachedi.pdf`;
+
   return (
     <section id="about" className="bg-white py-20">
       <div className="align-element grid items-center gap-12 md:grid-cols-2">
@@ -26,6 +28,13 @@ const About = () => {
             I care about clean, maintainable code and creating smooth user
             experiences, especially for tools used in demanding environments.
           </p>
+          <a
+            href={cvUrl}
+            download="CV-Ilyess-Rachedi.pdf"
+            className="flex items-center justify-center rounded-xl bg-emerald-600 px-6 py-3 text-white font-semibold shadow-lg shadow-emerald-200 transition duration-200 hover:-translate-y-0.5 hover:bg-emerald-700 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-emerald-500 w-full sm:w-fit m-auto mt-3"
+          >
+            Download CV
+          </a>
         </article>
       </div>
     </section>
