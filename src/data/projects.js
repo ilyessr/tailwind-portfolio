@@ -1,4 +1,3 @@
-import { nanoid } from "nanoid";
 import MovieAppImg from "../assets/movie-browsing-app.png";
 import JobTracker from "../assets/job-tracker.png";
 import DevBoard from "../assets/dev-board.png";
@@ -48,13 +47,13 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Advent of Code – Algorithm Challenges",
+    title: "BookTracker API",
     description:
-      "A collection of problem-solving exercises from Advent of Code. I implemented solutions in TypeScript, exploring algorithms and focusing on clean, readable code and good performance.",
+      "A REST API to manage a personal book library, built with Spring Boot. It includes full CRUD, filtering by text/author/status, a dedicated status update endpoint, statistics, strong validation rules, and integration tests with MockMvc.",
     image:
-      "https://cdn.thenewstack.io/media/2021/12/521cd034-advent-of-code-2021.jpg",
-    tags: ["TypeScript", "Algorithms", "Data Structures"],
-    live: "https://github.com/ilyessr/advent-of-code",
-    github: "https://github.com/ilyessr/advent-of-code",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Java 17", "Spring Boot", "Spring Data JPA", "H2", "Maven"],
+    live: "",
+    github: "https://github.com/ilyessr/booktracker",
   },
 ];
