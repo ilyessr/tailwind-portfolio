@@ -1,21 +1,11 @@
 import MovieAppImg from "../assets/movie-browsing-app.png";
 import JobTracker from "../assets/job-tracker.png";
 import DevBoard from "../assets/dev-board.png";
+import BetUnicornRace from "../assets/unicorn-betting-app.png";
 
 export const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
-    description:
-      "Responsive personal portfolio built with React and Tailwind CSS, featuring smooth animations and a modular component structure.",
-    image:
-      "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    tags: ["React", "Vite", "Tailwind CSS"],
-    live: "https://ilyessr.github.io/tailwind-portfolio/",
-    github: "https://github.com/ilyessr/tailwind-portfolio",
-  },
-  {
-    id: 2,
     title: "Movie Browsing App",
     description:
       "Discover, search, and browse movies with details, casts, and ratings from TMDB. The app is responsive, fast, and keeps data fresh with smart caching for a smooth experience on desktop and mobile.",
@@ -25,7 +15,7 @@ export const projects = [
     github: "https://github.com/ilyessr/movie-browsing-app",
   },
   {
-    id: 3,
+    id: 2,
     title: "DevBoard – Kanban Project Management Platform",
     description:
       "A full-stack web app inspired by Trello/Jira to manage boards, columns, and cards with secure JWT authentication and HttpOnly refresh cookies.",
@@ -36,7 +26,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Job Tracker – Application Tracking Platform",
     description:
       "A full-stack web app to track and organize my job applications (roles, statuses, notes, and follow-up dates).",
@@ -46,7 +36,7 @@ export const projects = [
     github: "https://github.com/ilyessr/job-tracker-frontend",
   },
   {
-    id: 5,
+    id: 4,
     title: "BookTracker API",
     description:
       "A REST API to manage a personal book library, built with Spring Boot. It includes full CRUD, filtering by text/author/status, a dedicated status update endpoint, statistics, strong validation rules, and integration tests with MockMvc.",
@@ -55,5 +45,24 @@ export const projects = [
     tags: ["Java 17", "Spring Boot", "Spring Data JPA", "H2", "Maven"],
     live: "",
     github: "https://github.com/ilyessr/booktracker",
+  },
+  {
+    id: 5,
+    title: "Unicorn Betting",
+    description:
+      "A full-stack demo application for managing virtual unicorn races and online bets. Built with React, Vite, NestJS, Prisma and PostgreSQL, it includes daily race scheduling, winner/top 3/top 5 bet types, simulated card payments, bettor dashboards, product usage analytics, and Swagger API documentation. The app runs locally with Docker Compose and uses virtual funds only.",
+    image: BetUnicornRace,
+    tags: [
+      "React",
+      "Vite",
+      "NestJS",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Docker",
+      "Swagger",
+    ],
+    live: "",
+    github: "https://github.com/ilyessr/unicorn-betting-app",
   },
 ];
